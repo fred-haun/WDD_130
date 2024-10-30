@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@1&display=swap');
+
 div {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,10 +9,17 @@ div {
     margin: 0 auto;
 }
 
+.home-title {
+    font-family: Open Sans, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 nav a{
     text-align: center;
     color: yellowgreen;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -32,6 +41,7 @@ nav a:hover{
 
 main section{
     text-align: center;
+    box-sizing: border-box;
 }
 
 #background {
@@ -41,6 +51,14 @@ main section{
 
 body{
     background-color: #4DA1A9;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header{
@@ -51,6 +69,9 @@ header{
     background-color: #4DA1A9;
     color: red;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -60,6 +81,7 @@ header{
 
 .msg{
     background-color: #C5D86D;
+    padding: 35px;
 }
 
 .msg h2{
@@ -68,11 +90,14 @@ header{
 
 .msg p{
     color: indigo;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #396E94;
     color: orangered;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -92,6 +117,10 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title{
     color: darkslategrey;
 }
@@ -102,8 +131,22 @@ h4{
 
 .logo{
     width: 80px;
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
