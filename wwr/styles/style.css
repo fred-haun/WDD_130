@@ -72,6 +72,7 @@ header{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .book:hover, .join:hover{
@@ -82,6 +83,7 @@ header{
 .msg{
     background-color: #C5D86D;
     padding: 35px;
+    line-height: 1.5em;
 }
 
 .msg h2{
@@ -91,6 +93,7 @@ header{
 .msg p{
     color: indigo;
     padding-bottom: 15px;
+    font-size: .8em;
 }
 
 footer{
@@ -123,6 +126,9 @@ footer .social img {
 
 .home-title{
     color: darkslategrey;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -133,7 +139,9 @@ h4{
     width: 80px;
     padding-top: 5px;
 }
-
+#logo_link{
+    padding-top: 5px;
+}
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
